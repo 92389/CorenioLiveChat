@@ -1,0 +1,14 @@
+{
+  "name": "local/live-chat",
+  "description": "Live chat widget + employee dashboard (PHP + MySQL + WebSockets)",
+  "type": "project",
+  "require": {
+    "cboden/ratchet": "^0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "LcWs\\": "ws/"
+    }
+  }
+}
+
